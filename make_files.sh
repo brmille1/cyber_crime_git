@@ -22,16 +22,16 @@ if test -d /home/kali/Documents/files; then
 		fi
 
 		#Create the file with fileName
-		touch /home/kali/Documents/files/$fileName
+		touch /home/kali/Documents/cyber_crime_git/files/$fileName
 
 		#Make file readable, writable, and executable
-		chmod 777 /home/kali/Documents/files/$fileName
+		chmod 777 /home/kali/Documents/cyber_crime_git/files/$fileName
 
 		#Generate MD5 hash for file
-		fileHash=$(md5sum /home/kali/Documents/files/$fileName)
+		fileHash=$(md5sum /home/kali/Documents/cyber_crime_git/files/$fileName)
 
 		#Append file's hash to it
-		echo $fileHash > /home/kali/Documents/files/$fileName
+		echo $fileHash > /home/kali/Documents/cyber_crime_git/files/$fileName
 	done
 else
 	#Warn user file does not exist
