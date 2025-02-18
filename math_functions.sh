@@ -47,6 +47,7 @@ divide()
 #Tell user how to end the loop
 echo "End loop by inputing 'END' when asked for sign."
 
+#Loop until break is reached
 while [ true ]; do
     #Ask for user input
     echo "Input math sign:"
