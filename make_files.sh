@@ -7,7 +7,7 @@ echo "Number of files to make:"
 read fileNumber
 
 #Check if files directory exists
-if test -d /home/kali/Documents/files; then
+if test -d /home/kali/Documents/cyber_crime_git/files; then
 
 	#Use for loop to create files
 	for ((i=0 ; i<fileNumber ; i++)); do
