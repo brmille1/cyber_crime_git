@@ -30,11 +30,11 @@ if test -d /home/kali/Documents/cyber_crime_git/files; then
 		#Generate MD5 hash for file
 		fileHash=$(md5sum /home/kali/Documents/cyber_crime_git/files/$fileName)
 
-		#Append file's hash to it
+		#Append file's hash to itself
 		echo $fileHash > /home/kali/Documents/cyber_crime_git/files/$fileName
 	done
 else
-	#Warn user file does not exist
+	#Warn user that the directory does not exist
 	echo "files directory does not exist"
 fi
 

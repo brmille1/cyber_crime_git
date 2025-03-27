@@ -12,12 +12,11 @@ if [ ! -d "$dir_path" ]; then
 	exit 1
 fi
 
-#Prompt user from what they want to search for
+#Prompt user for what they want to search for
 echo "Text to search for:"
 
 #Get text to search for from user
 read search_text
 
 #Use grep to look for search_text within the files in dir_path
-
 grep -i -r "$search_text" "$dir_path"

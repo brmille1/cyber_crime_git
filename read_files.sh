@@ -1,6 +1,6 @@
 #! /bin/bash
 
-##Check if the user provided an argument
+#Check if the user provided an argument
 if [ -z "$1" ]; then
 	echo "Please provide a directory"
 	exit 1
